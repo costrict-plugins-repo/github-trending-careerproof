@@ -1,0 +1,38 @@
+{
+  "name": "careerproof",
+  "owner": {
+    "name": "CareerProof.ai",
+    "email": "support@careerproof.ai"
+  },
+  "metadata": {
+    "description": "AI-powered career and workforce intelligence — 13 guided skills + 67 MCP tools backed by 50+ expert-curated sources (HBR, McKinsey, BCG, Gartner) with live web search. Atlas skills (9) for competency analysis, JD review, custom eval rubrics, workforce chat, and talent reports. CeeVee skills (4) for CV optimization, quick review, career intelligence chat, and career reports.",
+    "version": "2.0.0",
+    "homepage": "https://careerproof.ai",
+    "repository": "https://github.com/careerproof-labs/careerproof-skills",
+    "license": "MIT"
+  },
+  "plugins": [
+    {
+      "name": "careerproof-skills",
+      "source": "./",
+      "description": "13 guided workflows + 67 MCP tools: Atlas (9 skills — hiring onboarding, GEM competency analysis, JD review, custom eval rubrics, CV-JD matching, interview generation, batch shortlisting, workforce chat, 16-type research reports) and CeeVee (4 skills — CV positioning pipeline, quick review, career intelligence chat, 17-type career reports) — all backed by expert-curated RAG from 50+ premium sources and live web research via the CareerProof MCP server",
+      "version": "2.0.0",
+      "category": "productivity",
+      "tags": [
+        "career",
+        "hiring",
+        "recruitment",
+        "cv",
+        "resume",
+        "hr",
+        "talent-acquisition",
+        "workforce-intelligence",
+        "org-design",
+        "deep-research",
+        "mcp",
+        "salary",
+        "compensation"
+      ]
+    }
+  ]
+}
